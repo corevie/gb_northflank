@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  IMAGE_NAME: ghcr.io/corevie/usa_northflank
+  IMAGE_NAME: ghcr.io/corevie/gb_northflank
   
 jobs:
   build:
