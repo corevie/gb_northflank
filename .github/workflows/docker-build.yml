@@ -5,6 +5,9 @@ on:
     branches: [main]
   workflow_dispatch:
 
+env:
+  IMAGE_NAME: ghcr.io/corevie/usa_northflank
+  
 jobs:
   build:
     name: Build and push image
